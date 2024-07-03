@@ -1,7 +1,7 @@
 const favicons = require("favicons").default;
 const fs = require("fs");
 
-const source = "./config/profile.png"; // Source image(s). `string`, `buffer` or array of `string`
+const source = "config/profile.png"; // Source image(s). `string`, `buffer` or array of `string`
 
 const configuration = {
   path: "/", // Path for overriding default icons path. `string`
@@ -39,7 +39,7 @@ const configuration = {
     appleIcon: false, // Create Apple touch icons. `boolean` or `{ offset, background, mask, overlayGlow, overlayShadow }` or an array of sources
     appleStartup: false, // Create Apple startup images. `boolean` or `{ offset, background, mask, overlayGlow, overlayShadow }` or an array of sources
     coast: false, // Create Opera Coast icon. `boolean` or `{ offset, background, mask, overlayGlow, overlayShadow }` or an array of sources
-    favicons: ["favicon.ico"], // Create regular favicons. `boolean` or `{ offset, background, mask, overlayGlow, overlayShadow }` or an array of sources
+    favicons: ["favicons.ico"], // Create regular favicons. `boolean` or `{ offset, background, mask, overlayGlow, overlayShadow }` or an array of sources
     firefox: false, // Create Firefox OS icons. `boolean` or `{ offset, background, mask, overlayGlow, overlayShadow }` or an array of sources
     windows: false, // Create Windows 8 tile icons. `boolean` or `{ offset, background, mask, overlayGlow, overlayShadow }` or an array of sources
     yandex: false, // Create Yandex browser icon. `boolean` or `{ offset, background, mask, overlayGlow, overlayShadow }` or an array of sources
