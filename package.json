@@ -18,8 +18,6 @@
     "export": "next export",
     "predeploy": "npm run build && npm run export && touch ./out/.nojekyll",
     "deploy": "node scripts/pages.js leomc1118 master",
-    // gh-pages -d build"
-    // "custom-domain": "node scripts/cname.js hashirshoaeb.com www.hashirshoaeb.com",
     "lint": "next lint"
   },
   "dependencies": {
